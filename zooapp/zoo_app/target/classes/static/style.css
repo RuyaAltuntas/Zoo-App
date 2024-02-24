@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#F9F9F9;
+}
+
+#animal-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#animal-container p {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#button1, #button2 {
+    background-color: #4C2FA3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#button1:hover, #button2:hover {
+    background-color: #4C2FA3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #4C2FA3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#insert-button, #delete-button, #view-button,#add-humidity-button,#update-humidity-button,#drop-humidity-button{
+    background-color: #4C2FA3;
+    box-shadow: 0 5px 0 #4C2FA3;
+    border: 2px solid #1d2026;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    transition: all 0.3s ease;
+}
+
+#insert-button:active, #delete-button:active, #view-button:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+#insert-button:hover, #delete-button:hover, #view-button:hover {
+    background-color: #4C2FA3;
+}
